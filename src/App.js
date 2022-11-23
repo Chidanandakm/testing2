@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      fourth change
+      lastly pushing change
       {data?.total_rise_prop?.filter(i => i.prop_value?.includes('LOW'))?.map((item) => (
                 <div style={{ minWidth: '300px' }}>
                   <Card title={capitalize(item.prop_value)} sectioned>
